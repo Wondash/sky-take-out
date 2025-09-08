@@ -7,7 +7,7 @@ import java.io.Serializable;
 @Data
 public class EmployeePageQueryDTO implements Serializable {
 
-    //员工姓名
+    //员工姓名（可不选，用于员工分页查询中的指定员工姓名查询）
     private String name;
 
     //页码
