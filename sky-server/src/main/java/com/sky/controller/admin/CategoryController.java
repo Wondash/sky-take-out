@@ -27,8 +27,6 @@ public class CategoryController {
 
     @Autowired
     private CategoryService categoryService;
-    @Autowired
-    private CategoryMapper categoryMapper;
 
     /**
      * 新增分类

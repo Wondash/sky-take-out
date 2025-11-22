@@ -6,3 +6,10 @@ sky:
     database: sky_take_out
     username: root
     password: 1234
+  storage:
+    type: minio # 标识使用 minio
+    minio:
+      endpoint: http://localhost:9000  # MinIO 服务的地址
+      access-key-id: minioadmin
+      access-key-secret: minioadmin
+      bucket-name: skytakeout
